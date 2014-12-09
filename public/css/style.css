@@ -186,6 +186,27 @@ h3 {
 	}
 }
 
+@media only screen and (min-height: 415px) and (max-width: 736px) {
+	.container {
+		left: 0;
+		right: 0;
+		bottom: 120px;
+		padding: 20px;
+	}
+
+	h1,
+	h3 {
+		text-align: center;
+	}
+
+	.download {
+		text-align: center;
+		right: 0;
+		left: 0;
+		bottom: 40px;
+	}
+}
+
 @media only screen and (max-device-width: 480px) and (orientation: landscape) {
 	h1 {
 		font-size: 30px;
